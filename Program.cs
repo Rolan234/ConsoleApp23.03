@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            // Сортировка ОМ по возрастанию. 
+            // Сортировка ОМ по возрастанию. .
             int[] mass = { 12, -13, 14, 15, -17 };
            
             Console.Read();

@@ -10,13 +10,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            // Сортировка ОМ по возрастанию. .
-            int[] mass = { 12, -13, 14, 15, -17 };
-           
-            Console.Read();
-
-           
-            
+            int[] array = { -4, -7, 0, 2, 5 };
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                for (int j = i + 1; j < array.Length; ++)
+                {
+                    if (array[i] > array[j])
+                        int p = array[i]; array[i] = array[j]; array[j] = p};
+            }
+        }
+                foreach (int i in nums)
+            {
+                        Console.Writeline($"{i}");
+            }
         }
     }
 }
